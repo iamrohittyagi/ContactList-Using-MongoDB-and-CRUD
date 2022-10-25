@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#page-heading {
+  text-align: center;
+  margin-top: 25px;
+  color: rgba(0, 183, 255, 0.767);
+}
+
+.list-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.unodr-list {
+  list-style: none;
+  width: 30%;
+}
+
+.unodr-list li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: cornflowerblue;
+  margin: 10px;
+  align-items: center;
+}
+
+.unodr-list li p {
+  text-align: left;
+}
+
+.unodr-list :hover {
+  background-color: cadetblue;
+}
+
+.delete{
+    color: rgba(255, 0, 0, 0.801);
+    font-size: 20px;
+}
+
+.delete-btn{
+    border: none;
+    background-color:  cornflowerblue;
+}
+
+.input {
+  font-size: larger;
+  border: none;
+  border-bottom: solid 2px blue;
+  margin: 15px;
+  padding: 5px;
+}
+
+form button {
+  padding: 15px 25px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+form button :hover{
+    background-color: #3e8e41
+}
+
+form button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.input:focus{
+    outline: none;
+}
